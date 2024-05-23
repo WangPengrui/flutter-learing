@@ -199,9 +199,9 @@ class MyApp extends StatelessWidget { // MyApp类继承自StatelessWidget类
 
 基于官方Demo的改进：生成建议的名称，提供互动功能，用户可以选中将其加入清单。
 
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/779b0435-76f3-4704-b540-1ff207f3cb95" alt="image" style="width:33%">
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/25f26774-7c9f-4f7d-ba6e-df4d365711f5" alt="image" style="width:33%">
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/5ec8430c-3be2-43d2-9d5a-5275c63b00f8" alt="image" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/779b0435-76f3-4704-b540-1ff207f3cb95" alt="image" style="width:25%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/25f26774-7c9f-4f7d-ba6e-df4d365711f5" alt="image" style="width:25%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/5ec8430c-3be2-43d2-9d5a-5275c63b00f8" alt="image" style="width:25%">
 
 ```dart
 import 'package:flutter/material.dart';
@@ -460,9 +460,9 @@ State*ful* widgets 持有的状态可能在widget生命周期中发生变化. �
 
 这是我快速实战上手的第一个小小项目。目标是制作一个能为所有高光谱图像处理领域的同行们提供一个快速查询自身领域内的优质算法信息，和常用数据集信息。
 
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/ef01097b-c63a-439c-a8c5-3309bc7b37ba" alt="image-20240523095330022" style="width:33%">
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/b57d52bc-2f6a-4b0e-854b-4c662df07b19" alt="image-20240523095343548" style="width:33%">
-<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/2ea386e2-d15c-412c-a2f6-072d7bc51674" alt="image-20240523095414313" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/ef01097b-c63a-439c-a8c5-3309bc7b37ba" alt="image-20240523095330022" style="width:25%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/b57d52bc-2f6a-4b0e-854b-4c662df07b19" alt="image-20240523095343548" style="width:25%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/2ea386e2-d15c-412c-a2f6-072d7bc51674" alt="image-20240523095414313" style="width:25%">
 
 
 
