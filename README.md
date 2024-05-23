@@ -109,7 +109,7 @@
 
 ## [Hello World](https://github.com/WangPengrui/flutter-learing/blob/main/hello/lib/main_demo1.dart)
 
-![image-20240523094438021](C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523094438021.png)
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/0dd10c2f-2705-4c36-9c26-6a2f28e915c6" alt="image" style="width:33%">
 
 ### 1. 导入flutter包
 
@@ -192,13 +192,16 @@ class MyApp extends StatelessWidget { // MyApp类继承自StatelessWidget类
 
 4. Scaffold：是界面的主体，组件的展示都依附于它。每个界面一个脚手架，通过它来进行架构实现，布局。
 
-   ![image-20240521171825117](C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240521171825117.png)
+![image-20240521171825117](https://github.com/WangPengrui/flutter-learing/assets/104671485/ec368a74-68ce-40e4-ad9b-52e9716ced17)
+
 
 ## [FlutterDemo](https://github.com/WangPengrui/flutter-learing/blob/main/hello/lib/main_demo2.dart)
 
 基于官方Demo的改进：生成建议的名称，提供互动功能，用户可以选中将其加入清单。
 
-<img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523094729304.png" alt="image-20240523094729304" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095012613.png" alt="image-20240523095012613" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095028451.png" alt="image-20240523095028451" style="zoom:50%;" />
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/779b0435-76f3-4704-b540-1ff207f3cb95" alt="image" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/25f26774-7c9f-4f7d-ba6e-df4d365711f5" alt="image" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/5ec8430c-3be2-43d2-9d5a-5275c63b00f8" alt="image" style="width:33%">
 
 ```dart
 import 'package:flutter/material.dart';
@@ -457,7 +460,11 @@ State*ful* widgets 持有的状态可能在widget生命周期中发生变化. �
 
 这是我快速实战上手的第一个小小项目。目标是制作一个能为所有高光谱图像处理领域的同行们提供一个快速查询自身领域内的优质算法信息，和常用数据集信息。
 
-<img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095330022.png" alt="image-20240523095330022" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095343548.png" alt="image-20240523095343548" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095414313.png" alt="image-20240523095414313" style="zoom:50%;" />
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/ef01097b-c63a-439c-a8c5-3309bc7b37ba" alt="image-20240523095330022" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/b57d52bc-2f6a-4b0e-854b-4c662df07b19" alt="image-20240523095343548" style="width:33%">
+<img src="https://github.com/WangPengrui/flutter-learing/assets/104671485/2ea386e2-d15c-412c-a2f6-072d7bc51674" alt="image-20240523095414313" style="width:33%">
+
+
 
 ### 导航页（intro_Page）
 
