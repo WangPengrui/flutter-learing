@@ -107,7 +107,9 @@
 
 在实际的demo中边写边学。
 
-## Hello World
+## [Hello World](https://github.com/WangPengrui/flutter-learing/blob/main/hello/lib/main_demo1.dart)
+
+![image-20240523094438021](C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523094438021.png)
 
 ### 1. 导入flutter包
 
@@ -192,9 +194,11 @@ class MyApp extends StatelessWidget { // MyApp类继承自StatelessWidget类
 
    ![image-20240521171825117](C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240521171825117.png)
 
-## FlutterDemo
+## [FlutterDemo](https://github.com/WangPengrui/flutter-learing/blob/main/hello/lib/main_demo2.dart)
 
 基于官方Demo的改进：生成建议的名称，提供互动功能，用户可以选中将其加入清单。
+
+<img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523094729304.png" alt="image-20240523094729304" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095012613.png" alt="image-20240523095012613" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095028451.png" alt="image-20240523095028451" style="zoom:50%;" />
 
 ```dart
 import 'package:flutter/material.dart';
@@ -446,3 +450,41 @@ State*ful* widgets 持有的状态可能在widget生命周期中发生变化. �
     - pushNamed(String routeName, {Object arguments})：根据给定的路由名称跳转到对应的命名路由，并可以传递参数。
     - pop([result])：将当前路由从导航器堆栈中弹出，并返回一个值给上一个路由
     - popUntil(RoutePredicate predicate)：弹出导航器堆栈中直到满足给定条件的路由。
+
+
+
+## [hsi_alg](https://github.com/WangPengrui/flutter-learing/tree/main/hsi_alg)
+
+这是我快速实战上手的第一个小小项目。目标是制作一个能为所有高光谱图像处理领域的同行们提供一个快速查询自身领域内的优质算法信息，和常用数据集信息。
+
+<img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095330022.png" alt="image-20240523095330022" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095343548.png" alt="image-20240523095343548" style="zoom:50%;" /><img src="C:\Users\41344\AppData\Roaming\Typora\typora-user-images\image-20240523095414313.png" alt="image-20240523095414313" style="zoom:50%;" />
+
+### 导航页（intro_Page）
+
+包含本项目基础信息以及动机，点击Get Started按钮即可进入任务选择页面
+
+### 任务选择页（menu_page）
+
+用户在本页中可以在一个下拉列表中，浏览到高光谱领域所有常见任务。
+
+每个任务由一个矩形包围，单击矩形任一部分，即可跳转该项任务的详情。
+
+用户单机感兴趣任务右侧心形，即可点亮红心，并将该项任务添加到最喜欢任务列表（正在开发）
+
+用户点击感兴趣任务，对应矩形内部的Data或Algorithm按钮，即可跳转到该项任务对应的相关资源列表（目前还是空白页面，待开发）
+
+### 任务数据页（task_data_page）
+
+待开发，目标为：
+
+- 页面上方，放置横向拖拽的容器列表，展示该项任务最为流行的标准数据集
+
+- 页面中部，放置搜索框
+
+- 页面最下部，放置两列的下拉容器列表，展示该项任务的全部常用标准数据集
+- 用户点击数据页面时，跳转到数据详情页，给出预览伪彩色合成图片与文字详细说明，并提供下载地址。
+
+### 任务算法页（task_data_Algorithm）
+
+待开发，目标与任务数据页类似。
+
